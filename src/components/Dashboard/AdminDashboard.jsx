@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../ohters/Header'
 import CreateTask from '../ohters/CreateTask'
+import AllTask from '../ohters/AllTask'
 
 const AdminDashboard = () => {
   return (
@@ -8,6 +9,7 @@ const AdminDashboard = () => {
       <Header />
 
       <CreateTask />
+      <AllTask />
     </div>
   )
 }
