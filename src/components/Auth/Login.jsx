@@ -19,8 +19,7 @@ const Login = ({ handleLogin }) => {
             <input 
                 value={email}
                 onChange={(e)=> {setEmail(e.target.value)}}
-                required 
-                lassName=' border-2 outline-none bg-transparent border-emerald-600 py-3 px-5 rounded-full text-xl placeholder:text-gray-400' 
+                required  
                 className=' border-2 outline-none bg-transparent border-emerald-600 py-3 px-5 rounded-full text-xl placeholder:text-gray-400' 
                 type="email" 
                 placeholder="Enter your Email" 
